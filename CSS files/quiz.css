@@ -1,0 +1,43 @@
+html {
+    background-image: url(https://m.media-amazon.com/images/I/61rlQBcOy4L._AC_.jpg);
+}
+
+nav {
+    background: rgb(110, 38, 14);
+    overflow: hidden;
+}
+
+nav li{
+    list-style: none;
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav li:hover{
+    background-color: yellow;
+    color: black;
+}
+
+nav li:current{
+    background-color: #04AA6D;
+    color: white;
+}
+
+h1, h2 {
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+p {
+    font-size: xx-large;
+    background-color: white ;
+}
